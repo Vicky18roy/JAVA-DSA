@@ -13,6 +13,13 @@ public class strr {
                 System.out.print(j+" ");
             }
             System.out.println();
+        } 
+        for(char i='A';i<='E';i++){
+
+            for(int j=i;j<=5;j++){
+                System.out.print(i+" ");
+            }
+            System.out.println();
         }
     }
 }

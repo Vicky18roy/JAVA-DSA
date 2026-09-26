@@ -1,13 +1,13 @@
 public class scpatt {
     public static void main(String[] args) {
         
-        for(int i=1;i<=4;i++){
-            char ch =(char) ('a'+i);
+        for(int i=1;i<=5;i++){
+            char ch =(char) ('a' +i);
             if(i % 2 !=0){
                 ch = Character.toUpperCase(ch);
             }
 
-            for(int j=1;j<=4;j++){
+            for(int j=1;j<=5;j++){
                 System.out.print(ch+" ");
             }
             System.out.println();
