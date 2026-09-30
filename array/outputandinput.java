@@ -15,9 +15,19 @@ public class outputandinput {
     //     System.out.print(arr[i]+" ");
     //   }
 
-    System.out.println("enter size of array");
+        //input another
+    System.out.print("enter size of array");
         int n = sc.nextInt();
         int[]  arr = new int[n];
+
+        // input
+        for (int i = 0; i<=n-1; i++) {
+                arr[i] = sc.nextInt();
+        }
+        // output -> loop
+        for(int i=0;i<=n-1;i++){
+            System.out.print(arr[i]+" ");
+        }
          
 
 
